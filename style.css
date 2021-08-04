@@ -1,0 +1,110 @@
+body {
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    background-image: url("taskclock.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    padding-bottom: 20px;
+  }
+  
+  #listCards {
+    padding-bottom: 20px;
+  }
+  
+  #messagetoUser {
+    color: #37b43d;
+    text-align: center;
+  }
+  
+  .container {
+    width: 75%;
+    margin: auto;
+  }
+  
+  #taskListing {
+    width: 70%;
+    margin: auto;
+  }
+  
+  ul {
+    padding: 5px;
+  }
+  
+  #tasksList {
+    padding-bottom: 30px;
+  }
+  
+  li {
+    padding-bottom: 5px;
+  }
+  
+  h1,
+  h2 {
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  input {
+    border: 3px solid #000e02;
+    border-radius: 10px;
+    background-color: #d3dfd5;
+  }
+  
+  button {
+    font-weight: bolder;
+  }
+  
+  input:invalid {
+    background-color: #df725f;
+  }
+  
+  input:valid {
+    background-color: #37b43d;
+  }
+  
+  textarea:invalid {
+    background-color: #df725f;
+  }
+  
+  textarea:valid {
+    background-color: #37b43d;
+  }
+  
+  .list-group-item {
+    column-count: 2;
+  }
+  
+  #error {
+    padding: 10px 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .blinking {
+    text-align: center;
+    animation: blinkingText 1.2s infinite;
+  }
+  
+  @keyframes blinkingText {
+    0% {
+      color: #ff0000;
+    }
+    49% {
+      color: #ff0000;
+    }
+    60% {
+      color: transparent;
+    }
+    99% {
+      color: transparent;
+    }
+    100% {
+      color: #ff0000;
+    }
+  }
+  
+  #cardsLists {
+      font-size: .75em;
+  }

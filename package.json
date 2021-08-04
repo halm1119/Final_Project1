@@ -1,0 +1,15 @@
+{
+    "name": "final-project-complete",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "mocha": "^9.0.3"
+    }
+  }
+  
